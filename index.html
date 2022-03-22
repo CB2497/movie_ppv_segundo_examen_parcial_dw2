@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie PayPerView</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <img src="img/movie_logo-01.png" alt="logo" class="img-fluid">
+					</li>
+					  <li>
+					  <a href="/home/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/#/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">style</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Promociones</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/categorias/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">category</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Categorías</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/#/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">movie</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mis Películas</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/perfil/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">account_circle</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Perfil</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/#/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">highlight_off</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Salir</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+				
+				
+				<div class="panel-info">
+					<span class="material-icons">sentiment_satisfied_alt</span>
+					<h4>Sign In</h4>
+				</div>
+				
+			</section>
+			
+			
+			<section data-name="home" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="title">Movie PayPerView</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+				
+
+				<section class="page-content">
+
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<h2>Lo más popular:</h2>
+							<img src="img/sw4.jpg" alt="sw4" class="img-fluid">
+							<h3>Star Wars: A New Hope</h3>
+							<h5>Categoría: Ciencia Ficción</h5>
+							<img src="img/5stars.png" alt="5stars" class="img-fluid stars">
+							
+							<p>La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logran escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa.</p>
+							<a href="/sw4/" class="button button-fill button-small">Comprar película ($3.99)</a>
+
+						</div>
+					</article>
+					
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<h2>Lo más visto hoy:</h2>
+							<img src="img/it2.jpg" alt="it2" class="img-fluid">
+							<h3>It: Capítulo Dos</h3>
+							<h5>Categoría: Suspenso/ Horror</h5>
+							<img src="img/5stars.png" alt="5stars" class="img-fluid stars">
+							
+							<p>En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del Club de los Perdedores, que ahora están más alejados unos de otros.</p>
+							<a href="/it2/" class="button button-fill button-small">Comprar película ($4.99)</a>
+
+						</div>
+					</article>
+					
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<h2>Ganador de Oscar:</h2>
+							<img src="img/joker.jpg" alt="joker" class="img-fluid">
+							<h3>Joker</h3>
+							<h5>Categoría: Drama</h5>
+							<img src="img/5stars.png" alt="5stars" class="img-fluid stars">
+							
+							<p>Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. El repudio social, la marginación y una serie de trágicos acontecimientos lo conducen por el sendero de la locura y, finalmente, cae en el mundo del crimen.</p>
+							<a href="/sw4/" class="button button-fill button-small">Comprar película ($4.99)</a>
+
+						</div>
+					</article>
+					
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<h2>Para volver a ver:</h2>
+							<img src="img/titanic.jpg" alt="titanic" class="img-fluid">
+							<h3>Titanic</h3>
+							<h5>Categoría: Romance</h5>
+							<img src="img/5stars.png" alt="5stars" class="img-fluid stars">
+							
+							<p>Jack es un joven artista que gana un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo del buque conoce a Rose, una chica de clase alta que viaja con su madre y su prometido Cal, un millonario engreído a quien solo interesa el prestigio de la familia de su prometida. Jack y Rose se enamoran a pesar de las trabas que ponen la madre de ella y Cal en su relación. Mientras, el lujoso transatlántico se acerca a un inmenso iceberg.</p>
+							<a href="/sw4/" class="button button-fill button-small">Comprar película ($1.99)</a>
+
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h4 class="block-title block-title-medium">Trending:</h4>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="3">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/jaws.jpg" class="img-fluid" alt="jaws">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/shining.jpg" class="img-fluid" alt="shining">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/sw5.jpg" class="img-fluid" alt="sw5">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+						</div>
+					</article>
+					
+					<article id="brands" class="block">
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="3">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/avengers.jpg" class="img-fluid" alt="avengers">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/bttf.jpg" class="img-fluid" alt="bttf">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/casablanca.jpg" class="img-fluid" alt="casablanca">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h4 class="block-title block-title-medium">Películas Animadas:</h4>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="3">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/cars.jpg" class="img-fluid" alt="cars">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/dory.jpg" class="img-fluid" alt="dory">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/incredibles.jpg" class="img-fluid" alt="incredibles">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+						</div>
+					</article>
+					
+					<article id="brands" class="block">
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="3">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/irongiant.jpg" class="img-fluid" alt="irongiant">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/lionking.jpg" class="img-fluid" alt="lionking">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/shrek.jpg" class="img-fluid" alt="shrek">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+						</div>
+					</article>
+					
+					
+				</section>
+				
+				
+				
+				
+					
+					
+				
+				
+			</section> <!-- /page-content-->
+			
+			<!-- Bottom Navbar -->
+            <nav class="toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="/home/" class="link">
+                  <span class="material-icons">home</span>					 
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">favorite_border</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">notifications_none</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">shopping_cart</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">person_outline</span>					  
+                </a>
+              </div>
+            </nav>
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	
+	
+<section class="login-screen modal-in" id="login">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				<img src="img/movie_logo-01-01.png" alt="logo" class="img-fluid">
+				<h6>Mira películas de forma ilimitada</h6>
+			</div>
+          <form id="form-login">
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Tu email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="Contraseña" placeholder="Tu contraseña" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnLogin">Entrar</button></li>
+              </ul>
+              <div class="block-footer">
+                <p>¿No tenés una cuenta? <a href="#" class="link login-screen-open" data-login-screen="#signup">Crea una cuenta</a></p>
+                <p><a class="link login-screen-close" href="#">o continua como invitado</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+
+	
+	
+<section class="login-screen" id="signup" style="z-index: 99999;">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				Crear una cuenta
+			</div>
+          <form>
+            <div class="list">
+              <ul>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Nombre</div>
+                    <div class="item-input-wrap">
+                      <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Confirmar contraseña</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="confpassword" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnSignUp">Entrar</button></li>
+              </ul>
+              <div class="block-footer">
+                <p><a class="link login-screen-close" href="#">Cancelar</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
